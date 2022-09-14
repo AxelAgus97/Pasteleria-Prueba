@@ -1,0 +1,175 @@
+ *{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* :root{
+    --heigth-img-header: 19vh;
+} */
+/*--------- header -------------- */
+header{
+    background: rgb(255, 185, 243);
+    width: 100%;
+    height: 82px;
+}
+header section{
+    display: grid;
+    grid-template-rows: 82px;
+    grid-template-columns: 140px 1fr;
+}
+header section a{
+    height: 82px;
+}
+
+.btn-responsive .btn-menu{
+    display: block;
+    position: relative;
+    left: 70%;
+    /* position: relative; */
+    /* left: 65%; */
+    color: white;
+    text-decoration: none;
+    font-size: 35px;
+    margin-top: 0.6em;
+}
+.btn-responsive{
+    width: 100%;
+    display: grid;
+    grid-template-rows: 82px 246px;
+}
+.btn-responsive .btn-menu:hover{
+    color: rgb(100, 100, 100);
+}
+
+header img{
+    width: 82px;
+}
+
+.titulo-header{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 1em;
+    display: none;
+    position: absolute;
+}
+
+.ul-nav{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    position: relative;
+    transform: translateX(100%);
+    height: 100%;
+    background-color: rgb(255, 146, 255, .80);
+}
+.ul-nav li{
+    justify-content: space-between;
+    list-style: none;
+    display: block;
+    width: 100%;
+}
+.ul-nav li a{
+    display: block;
+    color: rgb(248, 248, 248);
+    text-decoration: none;
+    font-size: 1.5em;
+    transition: background-color 0.5s;
+    text-align: center;
+}
+.ul-nav li a:hover{
+    background-color: rgb(255, 234, 238);
+    color: black;
+}
+
+/*--------------------- fin del CSS del Header ----------------- */
+
+
+.h2-index{
+    padding-bottom: 20px;
+}
+
+body{
+    /* background-image: url(./imagenes/ultimo-fondo.jpg)!important;
+    background-repeat: round; */
+    background-image: radial-gradient(rgb(255, 255, 255), rgb(255, 185, 243));
+    background-size: 100%;
+}
+.quienes-somos{
+    text-align: center;
+    padding: 30px;
+}
+.ubicacion{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.prime-recetas h2{
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+}
+.contenedor-tortas{
+    display: grid;
+    text-align: center;
+}
+.torta1 img{
+    float: left;
+}
+.torta2 img{
+    float: right;
+}
+.torta3 img{
+    float: left;
+}
+.torta{
+    border-bottom: 1px solid black;
+}
+.torta:hover{
+    background: rgba(255, 187, 198, 0.40);
+}
+footer{
+    padding-top: 20px;
+    height: 80px;
+    background: rgb(189, 176, 176);;
+    padding-bottom: 0%;
+    text-align: center;
+    padding-top: 20px;
+}
+.body-producto{
+    z-index: 10;
+}
+
+
+@media screen and (max-width: 480px) {
+    /* header img{
+        width: 80px;
+    } */
+}
+    form{
+        padding: 30px;
+        position: relative;
+        text-align: center;
+        z-index: 10;
+    }
+    form label{
+        padding: 10px;
+        text-align: center;
+    }
+    form input{
+        margin: 10px;
+        text-align: center;
+    }
+    .btn-form{
+        padding: 5px;
+        background-color: rgb(138, 43, 226);
+        border: 1px solid black;
+        color: white;
+        border-radius: 6px;
+    }
+    #mensaje{
+        width: 250px;
+        height: 100px;
+}
