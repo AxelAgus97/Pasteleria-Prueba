@@ -24,7 +24,7 @@ header section a{
 }
 
 .btn-responsive .btn-menu{
-    display: block;
+    display: inline;
     position: relative;
     left: 70%;
     /* position: relative; */
@@ -35,7 +35,6 @@ header section a{
     margin-top: 0.6em;
 }
 .btn-responsive{
-    width: 100%;
     display: grid;
     grid-template-rows: 82px 246px;
 }
