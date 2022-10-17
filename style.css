@@ -92,7 +92,7 @@ header img{
 body{
     background-image: radial-gradient(rgb(255, 255, 255), rgb(255, 185, 243));
     background-size: 100%;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 .quienes-somos{
     text-align: center;
