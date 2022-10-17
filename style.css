@@ -129,6 +129,7 @@ body{
     background: rgba(255, 187, 198, 0.40);
 }
 footer{
+    margin-top: 50px;
     padding-top: 20px;
     height: 80px;
     background: rgb(189, 176, 176);;
