@@ -90,10 +90,9 @@ header img{
 }
 
 body{
-    /* background-image: url(./imagenes/ultimo-fondo.jpg)!important;
-    background-repeat: round; */
     background-image: radial-gradient(rgb(255, 255, 255), rgb(255, 185, 243));
     background-size: 100%;
+    overflow: hidden;
 }
 .quienes-somos{
     text-align: center;
